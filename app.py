@@ -280,3 +280,5 @@ else:
     for segment_name, group in cluster_table.groupby("Demand Segment"):
         with st.expander(f"{segment_name} ({len(group)} sub-categories)"):
             st.write(", ".join(group["Sub-Category"].tolist()))
+            #working app link : https://b3aqqzdfgkfgxowacbnozn.streamlit.app
+            
